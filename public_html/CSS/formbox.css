@@ -1,0 +1,89 @@
+/*CONTAINER*/
+.box{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 620px;
+    margin: 70px auto 100px auto;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 4px 40px 0 rgba(116, 130, 150, 0.2);
+    text-align:center;
+
+}
+/*FORMATAÇÃO NOS CAMPOS*/
+.box input, select
+{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(116, 130, 150, 0.2);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 0 auto 30px auto;
+    max-width: 280px;
+    height: 43px;
+}
+.box form div
+{
+    position: relative;
+}
+/*FORMATAÇÃO NA ESCRITA DOS CAMPOS*/
+.box form div label{
+    position: absolute;
+    width: 90%;
+    top: 10px;
+    left: -25px;
+    color: #999;
+    transition: 0s;
+    pointer-events: none;
+
+}
+/*BOTÃO ENVIAR*/
+.box input[type="submit"]
+{
+    height: 43px;
+    max-width: 250px;
+    margin: 0 auto;
+    background-color: #14e298;
+    height: 32px;
+    border: 0px;
+    color: #FFF;
+    outline: none;
+}
+/*BOTÃO ENVIAR*/
+.box input[type="submit"]:hover{
+    background-color: #2eff69;
+}
+
+.box input:focus ~ label,
+.box input:valid ~label{
+    top: -12px;
+    left: -70px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+}
+
+.box input:focus,
+.box input:valid{
+    outline: none;
+}
+.box input:invalid{
+    outline: none;
+}
+.box select:focus {
+    color: #333;
+    cursor: pointer;
+    list-style: none;
+    padding-left: 10px;
+    background: #f5f4f4;
+}
+select:focus{
+    color: black;
+}
+select:invalid {
+    color: gray;
+}

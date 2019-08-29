@@ -1,0 +1,61 @@
+html{
+    background: #F5F7FA;
+}
+body{
+
+    font-family: arial;
+
+}
+.borda{
+    position: absolute;
+    width: 99%;
+    height: 50px;
+    left: calc(50% - 1440px/2, auto);
+    top: 0px;
+
+    background: #FFFFFF;
+}
+.imagem-logo{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 300px;
+    top: 12px;
+}
+.aviso-start{
+    position: absolute;
+    width: 580px;
+    height: 70px;
+    left: calc(50% - 580px/2);
+    top: 110px;
+
+    font-family: arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.0125em;
+
+    color: #2D3A40;
+}
+#subtitle{
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    left: calc(50% - 500px/2);
+    top: 197px;
+
+    font-family: arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #748296;
+}
